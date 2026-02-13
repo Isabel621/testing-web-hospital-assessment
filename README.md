@@ -181,7 +181,7 @@ Testing focused on frontend behavior due to the use of dummy data.
 
 ---
 
-# 🚀 Skills Demonstrated
+# Skills Demonstrated
 
 - Manual Testing
 - Functional Testing
