@@ -109,7 +109,7 @@ System prevents duplicate submissions or disables button after first click.
 FAILED
 
 <p align="center">
-  <img src="./image/duplicate.png" width="600">
+  <img src="./image/duplicate-same-assassment.png" width="600">
 </p>
 
 ---
@@ -122,6 +122,8 @@ FAILED
 
 **Expected Result:**
 System behavior documented persisted.
+
+FAILED, because system use dummy data
 
 
 
@@ -140,28 +142,8 @@ Layout adjusts properly without UI breaking.
 
 # 5. Sample Bug Report
 
-## Bug ID: BUG-01  
-**Title:** Form allows submission with empty required field  
 
-**Environment:** Chrome – Windows 10  
-
-**Steps to Reproduce:**
-1. Open form
-2. Leave rating field empty
-3. Click Submit
-
-**Expected Result:**
-System should block submission and show validation error.
-
-**Actual Result:**
-Form submitted successfully without required rating.
-
-**Severity:** Medium  
-**Priority:** High  
-
----
-
-## Bug ID: BUG-02  
+## Bug ID: BUG-01
 **Title:** No loading indicator during form submission  
 
 **Severity:** Low  
@@ -169,14 +151,14 @@ Form submitted successfully without required rating.
 
 ---
 
+
 # 6. Risk Analysis
 
 | Risk Area | Potential Impact | Risk Level | Mitigation |
 |------------|------------------|------------|------------|
-| Weak validation | Incorrect data accepted | High | Strengthen required field validation |
 | Duplicate submission | Data inconsistency | Medium | Disable submit button after click |
 | No loading state | Poor user experience | Low | Add loading indicator |
-| Non-responsive layout | Reduced accessibility | Medium | Improve responsive design |
+
 
 ---
 
